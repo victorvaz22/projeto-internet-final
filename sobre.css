@@ -1,0 +1,23 @@
+body {
+     background:#0A0061;
+}
+
+#logoSobre {
+    height: 800px;
+    width: 550px;
+    padding: 50px;
+    margin-top: -650px;
+
+}
+
+#texto{
+    color: white;
+}
+.lista{
+    color: white;
+}
+
+#texto,logoSobre{
+    display: inline-block;
+
+}

@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+#forget-password,
+#facelog,
+#linklog,
+#register {
+  font-size: 0.8rem;
+}
+#forget-password:hover,
+#register:hover {
+  color: #0855bb;
+}
+.login-container {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 5vh;
+  border-radius: 10px;
+  text-align: center;
+}
+.cadastro-container {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+form {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+label {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+input {
+  border-bottom: 2px solid rgb(32, 32, 32);
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+input:focus {
+  border-bottom: 2px solid #0855bb;
+  display: block;
+}
+input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  background-color: #0855bb;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #18223c;
+  transition: 0.5s;
+}
+.social-container,
+.social-container p {
+  margin-bottom: 20px;
+}
+.social-container {
+  background-color: rgb(255, 255, 255);
+}
+#facebut {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  line-height: 50px;
+  margin-left: -55%;
+}
+#lnkdbut {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  line-height: 50px;
+  margin-left: 32%;
+  margin-top: -35%;
+}
+#facebut:hover,
+#lnkdbut:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+#facelog,
+#linklog {
+  background-color: rgb(255, 255, 255);
+}
+#loginsocial {
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+}
+.register-container {
+  margin-bottom: 10px;
+}
+body {
+  background:#0A0061;
+}
